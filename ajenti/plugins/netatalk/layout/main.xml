@@ -32,9 +32,6 @@
                                         <formline text="{Path}">
                                             <pathbox directory="True" bind="path" />
                                         </formline>
-                                        <formline text="{Password}">
-                                            <textbox bind="password" />
-                                        </formline>
                                         <formline text="{Valid users}">
                                             <textbox bind="valid_users" />
                                         </formline>
