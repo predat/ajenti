@@ -11,7 +11,7 @@ from reconfigure.items.netatalk import ShareData
 
 @plugin
 class Netatalk (SectionPlugin):
-    config_path = '/etc/afp.conf'
+    config_path = '/etc/netatalk/afp.conf'
 
     def init(self):
         self.title = 'Netatalk'
